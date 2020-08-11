@@ -266,12 +266,5 @@ CODEEXIT:
 
 	return (DWORDX)pMemoryAddress;
 
-	__asm
-	{
-		pushad;
-		pushfd;
-		popfd;
-		popad;
 
-	}
 }
